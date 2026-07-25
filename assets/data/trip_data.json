@@ -1,0 +1,285 @@
+{
+  "trip": {
+    "name": "UK Family Adventure 2026",
+    "startDate": "2026-09-16",
+    "endDate": "2026-10-14",
+    "travellers": "2 adults, 3 children",
+    "homeCurrency": "NZD",
+    "tripCurrency": "GBP",
+    "nzdToGbp": 0.44
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2026-09-16",
+      "location": "Auckland → London",
+      "title": "Depart Auckland",
+      "details": "Flights via Singapore."
+    },
+    {
+      "day": 2,
+      "date": "2026-09-17",
+      "location": "London / Wimbledon",
+      "title": "Arrive at Gatwick",
+      "details": "Land 06:55, travel to Wimbledon and rest."
+    },
+    {
+      "day": 3,
+      "date": "2026-09-18",
+      "location": "London → Newcastle",
+      "title": "Train to Newcastle",
+      "details": "Kings Cross 10:30 to Newcastle 13:11."
+    },
+    {
+      "day": 4,
+      "date": "2026-09-19",
+      "location": "Newcastle",
+      "title": "Newcastle vs Hull",
+      "details": "Match at St James’ Park, 3:00 pm."
+    },
+    {
+      "day": 5,
+      "date": "2026-09-20",
+      "location": "Newcastle → Glasgow",
+      "title": "Stadium tour and collect car",
+      "details": "Stadium tour at 10:30 am, then drive to Glasgow."
+    },
+    {
+      "day": 6,
+      "date": "2026-09-21",
+      "location": "Glasgow → Fort William",
+      "title": "Drive through western Scotland",
+      "details": "Scenic road-trip day."
+    },
+    {
+      "day": 7,
+      "date": "2026-09-22",
+      "location": "Fort William / Skye",
+      "title": "Visit the Isle of Skye",
+      "details": "Full-day excursion."
+    },
+    {
+      "day": 8,
+      "date": "2026-09-23",
+      "location": "Fort William → Loch Ness",
+      "title": "Loch Ness",
+      "details": "Drive north via Highland scenery."
+    },
+    {
+      "day": 9,
+      "date": "2026-09-24",
+      "location": "Loch Ness → Pitlochry",
+      "title": "Highlands to Pitlochry",
+      "details": "Road-trip day."
+    },
+    {
+      "day": 10,
+      "date": "2026-09-25",
+      "location": "Pitlochry → Edinburgh",
+      "title": "Arrive Edinburgh",
+      "details": "Begin four-night Edinburgh stay."
+    },
+    {
+      "day": 11,
+      "date": "2026-09-26",
+      "location": "Edinburgh",
+      "title": "Explore Edinburgh",
+      "details": "Castle, Royal Mile and family highlights."
+    },
+    {
+      "day": 12,
+      "date": "2026-09-27",
+      "location": "Edinburgh",
+      "title": "Explore Edinburgh",
+      "details": "Flexible sightseeing day."
+    },
+    {
+      "day": 19,
+      "date": "2026-10-04",
+      "location": "London",
+      "title": "Possible AFC Wimbledon match",
+      "details": "Fixture and tickets to confirm."
+    },
+    {
+      "day": 21,
+      "date": "2026-10-06",
+      "location": "Leavesden",
+      "title": "Harry Potter Studio Tour",
+      "details": "Confirmed for 12:30 pm."
+    },
+    {
+      "day": 29,
+      "date": "2026-10-14",
+      "location": "London → Auckland",
+      "title": "Depart for home",
+      "details": "End of UK adventure."
+    }
+  ],
+  "accommodation": [
+    {
+      "location": "Wimbledon",
+      "property": "Family accommodation",
+      "dates": "17–18 Sep",
+      "status": "Confirmed"
+    },
+    {
+      "location": "Newcastle",
+      "property": "Leonardo Hotel Newcastle Quayside",
+      "dates": "18–20 Sep",
+      "status": "Booked"
+    },
+    {
+      "location": "Glasgow",
+      "property": "Premier Inn Glasgow East Kilbride",
+      "dates": "20–21 Sep",
+      "status": "Booked"
+    },
+    {
+      "location": "Fort William",
+      "property": "Garrison Apartments",
+      "dates": "21–23 Sep",
+      "status": "Booked"
+    },
+    {
+      "location": "Loch Ness",
+      "property": "Loch Ness Lodge Hotel",
+      "dates": "23–24 Sep",
+      "status": "Booked"
+    },
+    {
+      "location": "Pitlochry",
+      "property": "Scotland’s Spa Hotel",
+      "dates": "24–25 Sep",
+      "status": "Booked"
+    },
+    {
+      "location": "Edinburgh",
+      "property": "Family accommodation",
+      "dates": "25–29 Sep",
+      "status": "Confirmed"
+    },
+    {
+      "location": "York",
+      "property": "The Limes York",
+      "dates": "30 Sep–1 Oct",
+      "status": "Booked"
+    },
+    {
+      "location": "Wimbledon",
+      "property": "Family accommodation",
+      "dates": "1–14 Oct",
+      "status": "Confirmed"
+    }
+  ],
+  "transport": [
+    {
+      "title": "London–Newcastle train",
+      "provider": "LNER",
+      "status": "Paid",
+      "costGbp": 97.65
+    },
+    {
+      "title": "UK car hire",
+      "provider": "Budget via Booking.com",
+      "status": "To pay",
+      "costGbp": 802.5
+    }
+  ],
+  "budget": [
+    {
+      "category": "Accommodation",
+      "budgetGbp": 1732.06,
+      "committedGbp": 1972.84
+    },
+    {
+      "category": "UK transport",
+      "budgetGbp": 900.15,
+      "committedGbp": 900.15
+    },
+    {
+      "category": "Activities",
+      "budgetGbp": 244.5,
+      "committedGbp": 339.75
+    },
+    {
+      "category": "Newcastle match",
+      "budgetGbp": 1319.25,
+      "committedGbp": 1224.0
+    },
+    {
+      "category": "SIM / data",
+      "budgetGbp": 36.95,
+      "committedGbp": 36.95
+    }
+  ],
+  "wishlist": [
+    {
+      "title": "Edinburgh Castle",
+      "location": "Edinburgh",
+      "priority": "Medium"
+    },
+    {
+      "title": "Arthur’s Seat",
+      "location": "Edinburgh",
+      "priority": "Medium"
+    },
+    {
+      "title": "Glencoe",
+      "location": "Highlands",
+      "priority": "Medium"
+    },
+    {
+      "title": "Glenfinnan Viaduct",
+      "location": "Highlands",
+      "priority": "Medium"
+    },
+    {
+      "title": "Harry Potter Studio Tour",
+      "location": "Leavesden",
+      "priority": "High"
+    },
+    {
+      "title": "Newcastle stadium tour",
+      "location": "Newcastle",
+      "priority": "High"
+    }
+  ],
+  "packing": {
+    "Documents": [
+      "Passports",
+      "Flight tickets",
+      "Travel insurance documents",
+      "Accommodation confirmations",
+      "Match tickets",
+      "Credit/debit cards",
+      "UK cash",
+      "Driver licence"
+    ],
+    "Toiletries": [
+      "Toothbrushes and toothpaste",
+      "Shampoo and conditioner",
+      "Soap/body wash",
+      "Deodorant",
+      "Sunscreen",
+      "Prescribed medication",
+      "First-aid kit",
+      "Hand sanitiser"
+    ],
+    "Technology": [
+      "Phones",
+      "Chargers",
+      "UK power adaptors",
+      "Power bank",
+      "Headphones",
+      "Camera"
+    ],
+    "Clothing": [
+      "Waterproof jackets",
+      "Warm layers",
+      "Walking shoes",
+      "Smart-casual outfit",
+      "Sleepwear",
+      "Underwear and socks"
+    ]
+  }
+}
