@@ -1,285 +1,60 @@
 {
-  "trip": {
-    "name": "UK Family Adventure 2026",
-    "startDate": "2026-09-16",
-    "endDate": "2026-10-14",
-    "travellers": "2 adults, 3 children",
-    "homeCurrency": "NZD",
-    "tripCurrency": "GBP",
-    "nzdToGbp": 0.44
-  },
+  "name": "UK Family Adventure 2026",
+  "subtitle": "Auckland to Newcastle, Scotland and London",
+  "startDate": "2026-09-16",
+  "endDate": "2026-10-07",
+  "currency": "GBP",
   "itinerary": [
-    {
-      "day": 1,
-      "date": "2026-09-16",
-      "location": "Auckland → London",
-      "title": "Depart Auckland",
-      "details": "Flights via Singapore."
-    },
-    {
-      "day": 2,
-      "date": "2026-09-17",
-      "location": "London / Wimbledon",
-      "title": "Arrive at Gatwick",
-      "details": "Land 06:55, travel to Wimbledon and rest."
-    },
-    {
-      "day": 3,
-      "date": "2026-09-18",
-      "location": "London → Newcastle",
-      "title": "Train to Newcastle",
-      "details": "Kings Cross 10:30 to Newcastle 13:11."
-    },
-    {
-      "day": 4,
-      "date": "2026-09-19",
-      "location": "Newcastle",
-      "title": "Newcastle vs Hull",
-      "details": "Match at St James’ Park, 3:00 pm."
-    },
-    {
-      "day": 5,
-      "date": "2026-09-20",
-      "location": "Newcastle → Glasgow",
-      "title": "Stadium tour and collect car",
-      "details": "Stadium tour at 10:30 am, then drive to Glasgow."
-    },
-    {
-      "day": 6,
-      "date": "2026-09-21",
-      "location": "Glasgow → Fort William",
-      "title": "Drive through western Scotland",
-      "details": "Scenic road-trip day."
-    },
-    {
-      "day": 7,
-      "date": "2026-09-22",
-      "location": "Fort William / Skye",
-      "title": "Visit the Isle of Skye",
-      "details": "Full-day excursion."
-    },
-    {
-      "day": 8,
-      "date": "2026-09-23",
-      "location": "Fort William → Loch Ness",
-      "title": "Loch Ness",
-      "details": "Drive north via Highland scenery."
-    },
-    {
-      "day": 9,
-      "date": "2026-09-24",
-      "location": "Loch Ness → Pitlochry",
-      "title": "Highlands to Pitlochry",
-      "details": "Road-trip day."
-    },
-    {
-      "day": 10,
-      "date": "2026-09-25",
-      "location": "Pitlochry → Edinburgh",
-      "title": "Arrive Edinburgh",
-      "details": "Begin four-night Edinburgh stay."
-    },
-    {
-      "day": 11,
-      "date": "2026-09-26",
-      "location": "Edinburgh",
-      "title": "Explore Edinburgh",
-      "details": "Castle, Royal Mile and family highlights."
-    },
-    {
-      "day": 12,
-      "date": "2026-09-27",
-      "location": "Edinburgh",
-      "title": "Explore Edinburgh",
-      "details": "Flexible sightseeing day."
-    },
-    {
-      "day": 19,
-      "date": "2026-10-04",
-      "location": "London",
-      "title": "Possible AFC Wimbledon match",
-      "details": "Fixture and tickets to confirm."
-    },
-    {
-      "day": 21,
-      "date": "2026-10-06",
-      "location": "Leavesden",
-      "title": "Harry Potter Studio Tour",
-      "details": "Confirmed for 12:30 pm."
-    },
-    {
-      "day": 29,
-      "date": "2026-10-14",
-      "location": "London → Auckland",
-      "title": "Depart for home",
-      "details": "End of UK adventure."
-    }
+    {"date":"2026-09-16","city":"Auckland","title":"Departure day","isTravelDay":true,"activities":[{"time":"Evening","name":"Fly Auckland to Singapore","note":"Family of five; keep travel documents in shared carry-on."}]},
+    {"date":"2026-09-18","city":"Newcastle","title":"Welcome to the UK","isTravelDay":true,"activities":[{"time":"Morning","name":"Train London to Newcastle","note":"Allow time to collect bags and reach the station."},{"time":"Afternoon","name":"Check in and explore","note":"Easy first day after the long journey."}]},
+    {"date":"2026-09-19","city":"Newcastle","title":"Football day","isTravelDay":false,"activities":[{"time":"Morning","name":"Newcastle stadium tour","note":"Club history and behind-the-scenes access."},{"time":"Afternoon","name":"Newcastle v Hull","note":"Check final kick-off time and ticket details."}]},
+    {"date":"2026-09-20","city":"Scottish Highlands","title":"Road trip north","isTravelDay":true,"activities":[{"time":"Morning","name":"Collect car","note":"Check luggage capacity and driving documents."},{"time":"Day","name":"Drive into Scotland","note":"Scenic stops as time and weather allow."}]},
+    {"date":"2026-09-22","city":"Fort William / Skye","title":"Highlands to Skye","isTravelDay":true,"activities":[{"time":"Morning","name":"Drive toward Skye","note":"Build in photo and comfort stops."},{"time":"Midday","name":"Eilean Donan Castle","note":"Classic Highlands castle stop."},{"time":"Afternoon","name":"Fairy Pools","note":"Weather-dependent outdoor walk."}]},
+    {"date":"2026-09-24","city":"Edinburgh","title":"Arrive Edinburgh","isTravelDay":true,"activities":[{"time":"Afternoon","name":"Check in","note":"Settle in for four nights."},{"time":"Evening","name":"Royal Mile orientation walk","note":"Keep the first evening flexible."}]},
+    {"date":"2026-09-25","city":"Edinburgh","title":"Old Town highlights","isTravelDay":false,"activities":[{"time":"09:30","name":"Edinburgh Castle","note":"Book an early timed entry."},{"time":"13:00","name":"Royal Mile and closes","note":"Lunch and relaxed exploring."},{"time":"15:30","name":"Camera Obscura","note":"Hands-on family favourite."}]},
+    {"date":"2026-09-26","city":"Edinburgh","title":"Views and museums","isTravelDay":false,"activities":[{"time":"09:00","name":"Arthur's Seat","note":"Choose a weather-appropriate route."},{"time":"13:30","name":"National Museum of Scotland","note":"Free entry and flexible visit length."},{"time":"16:30","name":"Victoria Street and Grassmarket","note":"Browse, snack and take photos."}]},
+    {"date":"2026-09-27","city":"Edinburgh","title":"Choose your adventure","isTravelDay":false,"activities":[{"time":"Day","name":"North Berwick, zoo or Holyrood","note":"Decide based on weather and family energy."}]},
+    {"date":"2026-09-29","city":"London","title":"Classic London","isTravelDay":false,"activities":[{"time":"09:30","name":"Westminster and Big Ben","note":"Start before the busiest period."},{"time":"13:00","name":"South Bank walk","note":"Lunch along the Thames."},{"time":"17:00","name":"London Eye","note":"Sunset timing if available."}]},
+    {"date":"2026-09-30","city":"London","title":"Tower and Thames","isTravelDay":false,"activities":[{"time":"09:00","name":"Tower of London","note":"See the Crown Jewels early."},{"time":"13:30","name":"Tower Bridge","note":"Walk across and explore the riverside."}]},
+    {"date":"2026-10-01","city":"London","title":"Museum day","isTravelDay":false,"activities":[{"time":"10:00","name":"Natural History Museum","note":"Reserve free entry if required."},{"time":"14:00","name":"Science Museum","note":"Pick the galleries the kids most want."}]},
+    {"date":"2026-10-02","city":"Leavesden","title":"Harry Potter day","isTravelDay":true,"activities":[{"time":"Day","name":"Warner Bros. Studio Tour","note":"Allow a full day including transfers."}]},
+    {"date":"2026-10-03","city":"London","title":"Markets and theatre","isTravelDay":false,"activities":[{"time":"11:00","name":"Borough Market","note":"Good choice for varied dietary needs."},{"time":"Afternoon","name":"Covent Garden","note":"Street performers and browsing."},{"time":"Evening","name":"West End show","note":"Book family-friendly seats."}]},
+    {"date":"2026-10-04","city":"Greenwich","title":"Greenwich by river","isTravelDay":false,"activities":[{"time":"Morning","name":"Thames boat to Greenwich","note":"The journey is part of the experience."},{"time":"Afternoon","name":"Royal Observatory and Cutty Sark","note":"Prioritise based on family interest."}]},
+    {"date":"2026-10-05","city":"London","title":"Flexible London day","isTravelDay":false,"activities":[{"time":"Day","name":"Windsor, Kew or shopping","note":"Keep open for weather and anything missed."}]}
   ],
-  "accommodation": [
-    {
-      "location": "Wimbledon",
-      "property": "Family accommodation",
-      "dates": "17–18 Sep",
-      "status": "Confirmed"
-    },
-    {
-      "location": "Newcastle",
-      "property": "Leonardo Hotel Newcastle Quayside",
-      "dates": "18–20 Sep",
-      "status": "Booked"
-    },
-    {
-      "location": "Glasgow",
-      "property": "Premier Inn Glasgow East Kilbride",
-      "dates": "20–21 Sep",
-      "status": "Booked"
-    },
-    {
-      "location": "Fort William",
-      "property": "Garrison Apartments",
-      "dates": "21–23 Sep",
-      "status": "Booked"
-    },
-    {
-      "location": "Loch Ness",
-      "property": "Loch Ness Lodge Hotel",
-      "dates": "23–24 Sep",
-      "status": "Booked"
-    },
-    {
-      "location": "Pitlochry",
-      "property": "Scotland’s Spa Hotel",
-      "dates": "24–25 Sep",
-      "status": "Booked"
-    },
-    {
-      "location": "Edinburgh",
-      "property": "Family accommodation",
-      "dates": "25–29 Sep",
-      "status": "Confirmed"
-    },
-    {
-      "location": "York",
-      "property": "The Limes York",
-      "dates": "30 Sep–1 Oct",
-      "status": "Booked"
-    },
-    {
-      "location": "Wimbledon",
-      "property": "Family accommodation",
-      "dates": "1–14 Oct",
-      "status": "Confirmed"
-    }
-  ],
-  "transport": [
-    {
-      "title": "London–Newcastle train",
-      "provider": "LNER",
-      "status": "Paid",
-      "costGbp": 97.65
-    },
-    {
-      "title": "UK car hire",
-      "provider": "Budget via Booking.com",
-      "status": "To pay",
-      "costGbp": 802.5
-    }
+  "bookings": [
+    {"type":"Flight","name":"Auckland to London via Singapore","date":"2026-09-16","status":"Booked","note":"International flights"},
+    {"type":"Train","name":"London to Newcastle","date":"2026-09-18","status":"Booked","note":"Rail transfer"},
+    {"type":"Attraction","name":"Newcastle stadium tour","date":"2026-09-19","status":"Booked","note":"Morning tour"},
+    {"type":"Attraction","name":"Newcastle v Hull","date":"2026-09-19","status":"Booked","note":"Confirm kick-off time"},
+    {"type":"Car","name":"Scotland road-trip car","date":"2026-09-20","status":"To book","note":"Family-size vehicle"},
+    {"type":"Hotel","name":"Edinburgh accommodation","date":"2026-09-24","status":"Booked","note":"Four nights"},
+    {"type":"Attraction","name":"Edinburgh Castle","date":"2026-09-25","status":"To book","note":"Early entry preferred"},
+    {"type":"Attraction","name":"Harry Potter Studio Tour","date":"2026-10-02","status":"To book","note":"High priority"}
   ],
   "budget": [
-    {
-      "category": "Accommodation",
-      "budgetGbp": 1732.06,
-      "committedGbp": 1972.84
-    },
-    {
-      "category": "UK transport",
-      "budgetGbp": 900.15,
-      "committedGbp": 900.15
-    },
-    {
-      "category": "Activities",
-      "budgetGbp": 244.5,
-      "committedGbp": 339.75
-    },
-    {
-      "category": "Newcastle match",
-      "budgetGbp": 1319.25,
-      "committedGbp": 1224.0
-    },
-    {
-      "category": "SIM / data",
-      "budgetGbp": 36.95,
-      "committedGbp": 36.95
-    }
+    {"category":"Accommodation","planned":4500,"actual":3250},
+    {"category":"Transport","planned":3000,"actual":2100},
+    {"category":"Attractions","planned":1800,"actual":650},
+    {"category":"Food","planned":2500,"actual":0},
+    {"category":"Shopping","planned":800,"actual":0}
+  ],
+  "packing": [
+    {"name":"Shared","items":["Passports","Travel insurance","Power adapters","Booking wallet","First-aid kit","Reusable water bottles"]},
+    {"name":"Adult 1","items":["Walking shoes","Rain jacket","Layers","Phone charger"]},
+    {"name":"Adult 2","items":["Walking shoes","Rain jacket","Layers","Phone charger"]},
+    {"name":"14-year-old","items":["Walking shoes","Rain jacket","Headphones","Day bag"]},
+    {"name":"12-year-old","items":["Walking shoes","Rain jacket","Headphones","Dietary snacks"]},
+    {"name":"10-year-old","items":["Walking shoes","Rain jacket","Entertainment","Day bag"]}
   ],
   "wishlist": [
-    {
-      "title": "Edinburgh Castle",
-      "location": "Edinburgh",
-      "priority": "Medium"
-    },
-    {
-      "title": "Arthur’s Seat",
-      "location": "Edinburgh",
-      "priority": "Medium"
-    },
-    {
-      "title": "Glencoe",
-      "location": "Highlands",
-      "priority": "Medium"
-    },
-    {
-      "title": "Glenfinnan Viaduct",
-      "location": "Highlands",
-      "priority": "Medium"
-    },
-    {
-      "title": "Harry Potter Studio Tour",
-      "location": "Leavesden",
-      "priority": "High"
-    },
-    {
-      "title": "Newcastle stadium tour",
-      "location": "Newcastle",
-      "priority": "High"
-    }
-  ],
-  "packing": {
-    "Documents": [
-      "Passports",
-      "Flight tickets",
-      "Travel insurance documents",
-      "Accommodation confirmations",
-      "Match tickets",
-      "Credit/debit cards",
-      "UK cash",
-      "Driver licence"
-    ],
-    "Toiletries": [
-      "Toothbrushes and toothpaste",
-      "Shampoo and conditioner",
-      "Soap/body wash",
-      "Deodorant",
-      "Sunscreen",
-      "Prescribed medication",
-      "First-aid kit",
-      "Hand sanitiser"
-    ],
-    "Technology": [
-      "Phones",
-      "Chargers",
-      "UK power adaptors",
-      "Power bank",
-      "Headphones",
-      "Camera"
-    ],
-    "Clothing": [
-      "Waterproof jackets",
-      "Warm layers",
-      "Walking shoes",
-      "Smart-casual outfit",
-      "Sleepwear",
-      "Underwear and socks"
-    ]
-  }
+    {"name":"Edinburgh Castle","city":"Edinburgh","priority":"Must do","status":"To book","note":"Early timed entry"},
+    {"name":"Camera Obscura","city":"Edinburgh","priority":"Must do","status":"Considering","note":"Excellent for all three kids"},
+    {"name":"Arthur's Seat","city":"Edinburgh","priority":"Must do","status":"Planned","note":"Weather dependent"},
+    {"name":"Tower of London","city":"London","priority":"Must do","status":"To book","note":"Go early for Crown Jewels"},
+    {"name":"London Eye","city":"London","priority":"Nice to have","status":"Considering","note":"Sunset slot"},
+    {"name":"Warner Bros. Studio Tour","city":"Leavesden","priority":"Must do","status":"To book","note":"Often sells out months ahead"},
+    {"name":"Borough Market","city":"London","priority":"Must do","status":"Planned","note":"Flexible food choices"},
+    {"name":"West End show","city":"London","priority":"Must do","status":"Considering","note":"Choose a family favourite"}
+  ]
 }

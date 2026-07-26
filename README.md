@@ -1,17 +1,29 @@
-# adventure_hub
+# Adventure Hub v2
 
-A new Flutter project.
+A Material 3 Flutter travel companion preloaded with the UK Family Adventure 2026.
 
-## Getting Started
+## Run
 
-This project is a starting point for a Flutter application.
+1. Install Flutter with Dart 3.4 or later.
+2. From this directory run:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter create . --project-name adventure_hub
+flutter pub get
+flutter run -d chrome
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+`flutter create .` adds the platform folders (`android`, `ios`, `web`, etc.) while preserving the supplied application code.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Included
+
+- Responsive dashboard and countdown
+- Expandable itinerary
+- Booking wallet and status chips
+- Planned-versus-actual budget progress
+- Interactive family packing lists
+- Prioritised wishlist
+- Light/dark system themes
+- JSON-backed seed data
+
+The sample data intentionally contains no sensitive booking references or contact details.
